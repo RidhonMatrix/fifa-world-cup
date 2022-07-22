@@ -41,9 +41,6 @@ main{
 }
 .banner-info p{
     color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .banner-img{
     margin-left: 50px;
@@ -197,7 +194,7 @@ footer{
     }
     .banner-info p{
         white-space: nowrap; 
-        width: 400px; 
+        width: 300px; 
         overflow: hidden;
         text-overflow: ellipsis; 
     }
