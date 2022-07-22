@@ -194,7 +194,7 @@ footer{
     }
     .banner-info p{
         white-space: nowrap; 
-        width: 300px; 
+        width: 250px; 
         overflow: hidden;
         text-overflow: ellipsis; 
     }
