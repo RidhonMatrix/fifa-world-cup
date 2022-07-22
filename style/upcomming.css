@@ -1,0 +1,26 @@
+.vs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.thumbnail-flag{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail-flag img{
+    width: 100%;
+}
+.thumbnail-flag h3{
+    padding: 5px;
+}
+.match-heading{
+    margin-top: 10px;
+}
+.match-time p{
+    color: #4D4D4D;
+}
