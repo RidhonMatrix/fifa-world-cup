@@ -24,7 +24,8 @@ main{
  ---------------------*/
 .banner{
     margin-top: 10px;
-    background: #161616;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     display: flex;
     border-radius: 20px;
 }
@@ -142,7 +143,8 @@ main{
     footer section
  ---------------------*/
 footer{
-    background-color: black;
+    background-color: #ffeaa7;
+background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
     display: flex;
     flex-direction: column;
     justify-content: center;
