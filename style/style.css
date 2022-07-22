@@ -149,9 +149,15 @@ footer{
     width: auto;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .footer-header h1{
     color: white;
+}
+.footer-header hr{
+    width: 400%;
+    position: relative;
+    border: .2px solid white;
 }
 
 .footer-menu{
