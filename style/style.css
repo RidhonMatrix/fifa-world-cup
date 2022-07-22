@@ -211,6 +211,9 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .links{background-color: white;}
+    footer{
+        width: auto;
+    }
     .footer-menu{
         flex-direction: column;
     }
