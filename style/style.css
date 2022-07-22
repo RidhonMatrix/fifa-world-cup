@@ -1,6 +1,8 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Signika+Negative&display=swap');
-
+*{
+    margin: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -137,10 +139,37 @@ main{
  ---------------------*/
 footer{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-header{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.footer-header h1{
+    color: white;
 }
 
-
-
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+.footer-menu a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+/* social media icons */
+.social-media i{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 /*--------------------
@@ -160,6 +189,9 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .links{background-color: white;}
+    .footer-menu{
+        flex-direction: column;
+    }
 
 }
 
@@ -187,5 +219,8 @@ footer{
     .links{background-color: white;}
     #disable{
         display: block;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
     }
  }
