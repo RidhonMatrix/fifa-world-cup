@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 main{
@@ -51,7 +52,7 @@ main{
     margin-top: 20px;
     display: flex;
     width: 1000px;
-    position: absolute;
+    /* position: absolute; */
 }
 .left{
     margin-right: 10px;
@@ -118,6 +119,31 @@ main{
     color: #f4511e;
 }
 /*--------------------
+    view all button
+ ---------------------*/
+ .view-all{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+#disable{
+    margin-top: 40px;
+    display: none;
+}
+
+/*--------------------
+    footer section
+ ---------------------*/
+footer{
+    background-color: black;
+}
+
+
+
+
+
+/*--------------------
     mobile devices
  ---------------------*/
  @media only screen and (max-width:688px){
@@ -136,6 +162,9 @@ main{
     .links{background-color: white;}
 
 }
+
+
+
 
 /*--------------------
     tablet devices
@@ -156,4 +185,7 @@ main{
         grid-template-columns: repeat(2,1fr);
     }
     .links{background-color: white;}
+    #disable{
+        display: block;
+    }
  }
