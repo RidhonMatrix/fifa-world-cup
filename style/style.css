@@ -41,11 +41,15 @@ main{
 }
 .banner-info p{
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .banner-img{
     margin-left: 50px;
     padding-top: 10px;
 }
+
 
 /*--------------------
     middle section
@@ -184,6 +188,12 @@ footer{
  @media only screen and (max-width:688px){
     .banner{
         flex-direction: column;
+    }
+    .banner-info p{
+        white-space: nowrap; 
+        width: 400px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
     .middle{
         width: auto;
